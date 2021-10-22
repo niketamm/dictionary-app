@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 .App {
   text-align: center;
+  background: #f4f5db;
+  min-width: 800px;
+  max-width: 1500px;
+  margin: 30px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: #23689b;
+  text-shadow: 2px 2px #d9dab0;
+}
+
+.themecolor {
+  color: #487e95;
+  background: #f4f5db;
+  box-shadow: #23689b;
+  text-shadow: #d9dab0;
+}
+
+.button {
+  color: #f4f5db;
+  border-color: #23689b;
+  background-color: #23689b;
 }
