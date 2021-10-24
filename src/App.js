@@ -4,12 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <body className="body">
+    <div className="body">
     <div className="App">
    <h1 className="title">📔English Dictionary</h1>
    <SearchWord />
     </div>
-    </body>
+    </div>
   );
 }
 
