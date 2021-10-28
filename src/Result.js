@@ -1,14 +1,16 @@
 import Meaning from "./Meaning";
 
 export default function  Result(props){
-    console.log(props.result)
     if (props.result){
         return (
-    <div className="results">
-        <h2>{props.result[0].word}</h2>
-    
-        <Meaning data={props.result[0]}/>
-        </div>
+    <div>
+    <div>
+        <h2 className="word">{props.result.word}</h2>
+    </div>
+    <div>
+        <Meaning data={props.result}/>
+    </div>
+    </div>
         );
 } else {
     return null;

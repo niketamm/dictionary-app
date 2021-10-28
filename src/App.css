@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 .App {
-  text-align: center;
   background: #f4f5db;
-  min-width: 800px;
-  max-width: 1500px;
+  min-width: 900px;
+  max-width: 50%;
   margin: 30px;
   padding-top: 20px;
   border-radius: 5px;
 }
 
 .title {
+  text-align: center;
   font-family: "Dancing Script", cursive;
-  font-size: 50px;
+  font-size: 60px;
   color: #23689b;
-  text-shadow: 2px 2px #d9dab0;
+  text-shadow: 3px 3px #d9dab0;
+  text-transform: capitalize;
 }
 
 .themecolor {
@@ -24,8 +25,56 @@
   text-shadow: #d9dab0;
 }
 
+.phonetic {
+  text-transform: lowercase;
+}
+
 .button {
   color: #f4f5db;
   border-color: #23689b;
   background-color: #23689b;
+}
+
+.results {
+  text-transform: lowercase;
+}
+
+.results::first-letter {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.Meanings {
+  border-style: double;
+  border-color: #d9dab0;
+  border-top: none;
+  border-bottom: none;
+  border-width: 6px;
+  background: rgb(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.word {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 3px 3px #d9dab0;
+  font-size: 60px;
+  color: #487e95;
+  padding: 0px;
+  font-weight: 900;
+}
+
+.origin {
+  font-size: 10px;
+  text-align: left;
+}
+
+.synonyms {
+  border-color: #d9dab0;
+  border-width: 1px;
+  border-style: double;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 1px;
 }

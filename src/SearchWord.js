@@ -8,7 +8,7 @@ let [word, setWord]= useState("");
 let [wordData, setWordData]=useState(null);
 
 function showResult(response){
-  setWordData(response.data);
+  setWordData(response.data[0]);
 }
 
 function search(event){
@@ -30,7 +30,7 @@ return (
          <div className="input-group mb-3">
   <input type="search" className="form-control" placeholder="Search" onChange={searchInput}/>
   <div className="input-group-append">
-    <button className="btn btn-info" type="submit">Button</button>
+    <button className="btn btn-info" type="submit">Search</button>
   </div>
 </div>
 <Result result={wordData}/>
