@@ -25,6 +25,8 @@ function searchInput(event) {
 
 
 return (
+  <div className="AppBody">
+   <h1 className="title">📔English Dictionary</h1>
 <div className="searchEngine">
 <form onSubmit={search}>         
          <div className="input-group mb-3">
@@ -35,6 +37,16 @@ return (
 </div>
 <Result result={wordData}/>
 </form>
+<div className="Meanings">
+  
+   <small>
+     This page was coded by <a href="https://www.linkedin.com/in/nike-reintamm-1b61b7146/">Nike</a> 
+     {" "} and is open sourced at <a href="https://github.com/niketamm/dictionary-app">Github</a>
+     {" "} and hosted on <a href="https://wizardly-hoover-dfd383.netlify.app/">Netlify</a>
+   </small>
+   
+   </div>
+</div>
 </div>)
 
      ;}

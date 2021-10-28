@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 .App {
-  background: #f4f5db;
+  background-color: white;
+  margin: 0px;
+}
+
+.AppBody {
+  background-color: #f4f5db;
   min-width: 900px;
-  max-width: 50%;
-  margin: 30px;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   border-radius: 5px;
+  margin: 30px;
 }
 
 .title {
@@ -53,6 +58,7 @@
   background: rgb(255, 255, 255, 0.5);
   margin-bottom: 10px;
   padding-left: 10px;
+  padding-bottom: 1px;
 }
 
 .word {
