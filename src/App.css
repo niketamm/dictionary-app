@@ -84,3 +84,14 @@
   margin: 2px;
   padding: 1px;
 }
+
+.sound {
+  display: inline-block;
+  color: #212529;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: none;
+}

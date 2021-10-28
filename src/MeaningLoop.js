@@ -1,7 +1,6 @@
 import Definition from "./Definition";
 
 export default function MeaningLoop(props) {
-    console.log (props.loop)
     return (
     
     <div className="Meanings">

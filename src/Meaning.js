@@ -2,7 +2,13 @@ import MeaningLoop from "./MeaningLoop";
 import Synonyms from "./Synonyms"
 
 export default function Meaning(props){
-    console.log(props.data)
+   
+
+    function playSound(event){
+    event.preventDefault();
+    let audio = new Audio(props.data.phonetics[0].audio);
+    audio.play();
+    }
 
     return  ( 
         <div>
@@ -10,7 +16,11 @@ export default function Meaning(props){
     
             <strong >
            Phonetics: {" "}
-           <span className="phonetic">{props.data.phonetic}</span> </strong> 
+                <span className="phonetic">
+               {props.data.phonetic}
+               <button className="sound" onClick={playSound}> 🔊 </button>
+                </span> 
+            </strong> 
             <small className="origin">
             <br />
          {props.data.meanings[0].definitions[0].synonyms.map(function
