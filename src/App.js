@@ -6,7 +6,7 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="AppBody">
-   <Dictionary defaultWord="word"/>
+   <Dictionary defaultWord="owl"/>
     </div>
   
   );
