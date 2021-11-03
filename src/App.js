@@ -1,11 +1,12 @@
-import './App.css';
-import SearchWord from "./SearchWord";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import Dictionary from "./Dictionary";
+
 
 function App() {
   return (
-    <div className="App">
-   <SearchWord />
+    <div className="AppBody">
+   <Dictionary defaultWord="word"/>
     </div>
   
   );
